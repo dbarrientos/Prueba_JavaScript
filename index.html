@@ -16,12 +16,8 @@
 
 		<main>
 			<section id ="comentarios">
-				<select multiple class="form-control" style="height: 100%" id="mensajes">
-					<option>1</option>
-					<option>2</option>
-					<option>3</option>
-					<option>4</option>
-					<option>5</option>
+				<select multiple class="form-control" id="mensajes">
+					
 				</select>
 
 			</section>
@@ -33,7 +29,7 @@
 					<div>
 						<label for="msg">Mensaje: <span class="required"></span></label>  
 						<textarea id="msg" name="msg" placeholder="Escriba su mensaje aquí..." required="required" class="form-control" rows="3"></textarea> 
-						<button class="btn btn-primary btn-lg" onclick="Twit.enviar(event)" id="Enviar" >Enviar</button> 
+						<button class="btn btn-primary btn-lg" onclick="Chat.enviar(event)" id="Enviar" >Enviar</button> 
 					</div>	
 					
 
@@ -43,5 +39,5 @@
 		
 		</main>
 	</body>
-	<script src="assets/js/Twit.js" type="text/javascript" type="text/javascript"></script>
+	<script src="assets/JS/Chat.js" type="text/javascript" type="text/javascript"></script>
 </html>
